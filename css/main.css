@@ -88,3 +88,21 @@ h2 a {
 .fa {
   background-color: none;
 }
+
+
+main {
+  width: 100%;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 2px;
+}
+.iphone-phones div {
+  width: 25%;
+
+}
+.iphone-phones div a img {
+  width: 100%;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
