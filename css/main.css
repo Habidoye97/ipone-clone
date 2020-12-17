@@ -8,7 +8,7 @@
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 .head {
-  background:  url("../assets/photo3.jpg");
+  background:  url("../assets/your_verse_hero.jpg");
   height: 580px;
   width: 100%;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ h1 a {
   text-decoration: none;
   font-stretch: 100%;
   color: white;
-  font-weight: lighter;
+  font-weight: 100;
 }
 h2 a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -75,6 +75,7 @@ h2 a {
   color: white;
   font-size: 30px;
   line-height: 30px;
+  font-weight: 100;
 }
 .verse {
   text-decoration: none;
@@ -88,7 +89,6 @@ h2 a {
 .fa {
   background-color: none;
 }
-
 
 main {
   width: 100%;
@@ -105,4 +105,40 @@ main {
   width: 100%;
   border: 2px solid white;
   box-sizing: border-box;
+}
+footer {
+  color: rgb(110, 110, 110);
+  width: 100%;
+  font-size: 0.7em;
+  
+}
+p {
+  display: inline;
+}
+.footer1 {
+  display: flex;
+  padding-left: 10%;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-right: 10%;
+  font-weight: 300;
+}
+.nav-footer {
+  display: flex;
+}
+.nav-footer li {
+  list-style: none;
+  padding-left: 10px;
+}
+footer div a {
+  color: rgb(72, 160, 224);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.footer2 {
+  padding-left: 10%;
+  padding-top: 10px;
 }
