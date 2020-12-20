@@ -1,4 +1,4 @@
-# New York Times - Clone
+# Apple Webpage - Clone
 
 This is a clone application of New York Times.
 <br>
