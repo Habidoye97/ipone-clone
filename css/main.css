@@ -18,12 +18,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 60px;
+  padding-top: 80px;
   box-sizing: border-box;
   cursor: pointer;
 }
 nav {
-  padding-left: 95px;
+  padding-left: 140px;
 }
 
 .menu-bar {
@@ -72,14 +72,16 @@ h1 a {
   font-stretch: 100%;
   color: white;
   font-weight: 100;
+  
 }
 h2 a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration: none;
   color: white;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 20px;
   font-weight: 100;
+  
 }
 .verse {
   text-decoration: none;
@@ -145,4 +147,11 @@ footer a:hover {
 .footer2 {
   padding-left: 10%;
   padding-top: 10px;
+}
+h2,  h1 {
+  padding-top: 45px;
+}
+section p {
+  display: block;
+  padding-top: 45px;
 }
