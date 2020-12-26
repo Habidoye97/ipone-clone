@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+.head {
+  background:  url("../assets/your_verse_hero.jpg");
+  height: 580px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+nav {
+  padding-left: 140px;
+}
+
+.menu-bar {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+}
+.menu-bar li {
+  background: linear-gradient(to bottom, #8a8a8a , #686868 50%, #595959 50%, #757575 100%);
+  height: 35px;
+  width: 110px;
+  position: relative;
+  border-right: 0.1px solid #565656;
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+.menu-bar li:hover {
+  background:rgb(78, 78, 77);
+}
+.menu-bar li:last-child {
+  width: 160px;
+}
+.menu-bar li a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 29.5px;
+  font-size: 16px;
+}
+input {
+  border-radius: 10px;
+  width: 100px;
+  background: linear-gradient(to bottom, #8a8a8a , #686868 50%, #595959 50%, #757575 100%);
+}
+input:hover {
+  background: white;
+}
+input:focus {
+  background: white;
+}
+h1 a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 70px;
+  text-decoration: none;
+  font-stretch: 100%;
+  color: white;
+  font-weight: 100;
+  
+}
+h2 a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  line-height: 20px;
+  font-weight: 100;
+  
+}
+.verse {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 50;
+}
+.verse:hover {
+  text-decoration: underline;
+}
+.fa {
+  background-color: none;
+}
+
+main {
+  width: 100%;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 2px;
+}
+.iphone-phones div {
+  width: 25%;
+
+}
+.iphone-phones div a img {
+  width: 100%;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+footer {
+  color: rgb(110, 110, 110);
+  width: 100%;
+  font-size: 0.7em;
+  
+}
+p {
+  display: inline;
+}
+.footer1 {
+  display: flex;
+  padding-left: 10%;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding-right: 10%;
+  font-weight: 300;
+}
+.nav-footer {
+  display: flex;
+}
+.nav-footer li {
+  list-style: none;
+  padding-left: 10px;
+}
+footer div a {
+  color: rgb(72, 160, 224);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.footer2 {
+  padding-left: 10%;
+  padding-top: 10px;
+}
+h2,  h1 {
+  padding-top: 45px;
+}
+section p {
+  display: block;
+  padding-top: 45px;
+}
